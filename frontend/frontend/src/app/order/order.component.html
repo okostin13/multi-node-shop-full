@@ -1,0 +1,2 @@
+<div *ngIf="orderId" class="title">Заказ № {{orderId}}</div>
+<app-product-list [btnType]="btnType" [products]="products" (onDelete)="delete()"></app-product-list>

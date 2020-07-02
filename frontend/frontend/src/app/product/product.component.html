@@ -1,0 +1,31 @@
+<div class="product">
+    <div class="line">
+        <div class="name">Наименование:</div>
+        <div class="value">{{product.name}}</div>
+    </div>
+    <div class="line">
+        <div class="name">Описание:</div>
+        <div class="value">{{product.description}}</div>
+    </div>
+    <div class="line">
+        <div class="name">Цена:</div>
+        <div class="value">{{product.price}} P</div>
+    </div>
+   <!-- <div class="btn-container" *ngIf="isBuyBtn; then thenBlock else elseBlock"></div>
+    <ng-template #thenBlock>
+        <app-product-buy-button class="btn-container" [product]="product"></app-product-buy-button>
+    </ng-template>
+    <ng-template #elseBlock>
+        <app-product-delete-button class="btn-container" [product]="product" (onDelete)="delete()" ></app-product-delete-button>
+    </ng-template>-->
+    <div class="btn-container" [ngSwitch]="btnType">
+   
+    <div *ngSwitchCase="'buy'">
+        <app-product-buy-button  class="btn-container" [product]="product"></app-product-buy-button>
+    </div>
+   <div *ngSwitchCase="'delete'">
+        <app-product-delete-button  class="btn-container" [product]="product" (onDelete)="delete()" ></app-product-delete-button>
+    </div>
+    <div *ngSwitchCase="'none'"></div>
+</div>
+</div>

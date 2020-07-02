@@ -1,0 +1,6 @@
+<div class="label" *ngIf="products?.length==0&&btnType=='buy'">Для получения списка продуктов выберите категорию</div>
+<div class="product-list">
+<div class="product" *ngFor="let product of products">
+    <app-product [product]="product" (onDelete)="delete()" [btnType]="btnType"></app-product>
+</div>
+</div>

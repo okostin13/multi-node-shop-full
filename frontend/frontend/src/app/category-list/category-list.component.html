@@ -1,0 +1,11 @@
+<div class="row">
+<div class="col-3"> 
+<div class="header">Категории</div>
+<div *ngFor="let item of categories"> 
+<div class="btn btn-primary" (click)="selectCategory(item.id)">{{item.name}}</div>
+</div>
+</div>
+<div class="col-9"> 
+    <app-product-list [btnType]="'buy'" [categoryId]="selectedCategoryId" ></app-product-list>
+    </div>
+</div>

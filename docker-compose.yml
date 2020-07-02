@@ -1,0 +1,70 @@
+version: '3'
+services:
+  pg-product:
+    container_name: pg-product
+    image: postgres:12
+    restart: unless-stopped
+    shm_size: 256mb
+    ports:
+      - "6432:5432"
+    environment:
+      TZ: ${TIME_ZONE}
+      POSTGRES_PASSWORD: password
+  pg-order:
+    container_name: pg-order
+    image: postgres:12
+    restart: unless-stopped
+    shm_size: 256mb
+    ports:
+      - "7432:5432"
+    environment:
+      TZ: ${TIME_ZONE}
+      POSTGRES_PASSWORD: password
+  config-service:
+    container_name: config-service
+    build: ./config-service
+    command: "/app/start.sh -Djava.security.egd=file:/dev/./urandom -jar /app/spring-boot-application.jar"
+  discovery-service:
+    container_name: discovery-service
+    build: ./discovery-service
+    ports:
+      - "8761:8761"
+    depends_on:
+      - "config-service"
+    command: "/app/start.sh -Djava.security.egd=file:/dev/./urandom -jar /app/spring-boot-application.jar"
+  backend:
+    container_name: backend
+    build: ./backend
+    #environment:
+    #  APP_PORT: 8080
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "config-service"
+      - "discovery-service"
+    command: "/app/start.sh -Djava.security.egd=file:/dev/./urandom -jar /app/spring-boot-application.jar"
+  product-service:
+    #container_name: product-service
+    build: ./product-service
+    depends_on:
+      - "config-service"
+      - "discovery-service"
+      - "pg-product"
+    command: "/app/start.sh -Djava.security.egd=file:/dev/./urandom -jar /app/spring-boot-application.jar"
+  order-service:
+    #container_name: order-service
+    build: ./order-service
+    depends_on:
+      - "config-service"
+      - "discovery-service"
+      - "pg-order"
+    #deploy:
+     # mode: replicated
+      #replicas: 2
+    command: "/app/start.sh -Djava.security.egd=file:/dev/./urandom -jar /app/spring-boot-application.jar"
+  frontend:
+    container_name: frontend
+    build: ./frontend/frontend
+    ports:
+      - "4200:4200"
+

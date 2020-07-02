@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3445fc76-4bd4-4812-b51e-f042d68c8d14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kostinshmatova/backend/config/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kostinshmatova/backend/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kostinshmatova/backend/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kostinshmatova/backend/dto/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kostinshmatova/backend/dto/ItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kostinshmatova/backend/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kostinshmatova/backend/dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kostinshmatova/backend/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kostinshmatova/backend/service/ProductService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dvOKsjj2diRrVpV9KfgIPuzgUj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kostinshmatova.backend.BackendApplication" />
+      <module name="backend.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kostinshmatova.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BackendApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3445fc76-4bd4-4812-b51e-f042d68c8d14" name="Default Changelist" comment="" />
+      <created>1593302039841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593302039841</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="161" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593309232772">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="161" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.-8.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1593309232772" />
+    <state x="952" y="262" width="374" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1593389265195">
+      <screen x="70" y="27" width="2490" height="1053" />
+    </state>
+    <state x="952" y="262" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/70.27.2490.1053/2560.0.1920.1080/4480.0.1920.1080@70.27.2490.1053" timestamp="1593389265195" />
+    <state width="1233" height="319" key="GridCell.Tab.0.bottom" timestamp="1593674425430">
+      <screen x="70" y="27" width="2490" height="1053" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/2560.-8.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1593313207407" />
+    <state width="1233" height="319" key="GridCell.Tab.0.bottom/70.27.2490.1053/2560.0.1920.1080/2560.0.1920.1080@70.27.2490.1053" timestamp="1593674425430" />
+    <state width="1589" height="319" key="GridCell.Tab.0.bottom/70.27.2490.1053/2560.0.1920.1080/4480.0.1920.1080@70.27.2490.1053" timestamp="1593547054371" />
+    <state width="1233" height="319" key="GridCell.Tab.0.center" timestamp="1593674425430">
+      <screen x="70" y="27" width="2490" height="1053" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.center/2560.-8.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1593313207407" />
+    <state width="1233" height="319" key="GridCell.Tab.0.center/70.27.2490.1053/2560.0.1920.1080/2560.0.1920.1080@70.27.2490.1053" timestamp="1593674425430" />
+    <state width="1589" height="319" key="GridCell.Tab.0.center/70.27.2490.1053/2560.0.1920.1080/4480.0.1920.1080@70.27.2490.1053" timestamp="1593547054371" />
+    <state width="1233" height="319" key="GridCell.Tab.0.left" timestamp="1593674425430">
+      <screen x="70" y="27" width="2490" height="1053" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.left/2560.-8.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1593313207407" />
+    <state width="1233" height="319" key="GridCell.Tab.0.left/70.27.2490.1053/2560.0.1920.1080/2560.0.1920.1080@70.27.2490.1053" timestamp="1593674425430" />
+    <state width="1589" height="319" key="GridCell.Tab.0.left/70.27.2490.1053/2560.0.1920.1080/4480.0.1920.1080@70.27.2490.1053" timestamp="1593547054371" />
+    <state width="1233" height="319" key="GridCell.Tab.0.right" timestamp="1593674425490">
+      <screen x="70" y="27" width="2490" height="1053" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.right/2560.-8.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1593313207407" />
+    <state width="1233" height="319" key="GridCell.Tab.0.right/70.27.2490.1053/2560.0.1920.1080/2560.0.1920.1080@70.27.2490.1053" timestamp="1593674425490" />
+    <state width="1589" height="319" key="GridCell.Tab.0.right/70.27.2490.1053/2560.0.1920.1080/4480.0.1920.1080@70.27.2490.1053" timestamp="1593547054371" />
+    <state width="1233" height="319" key="GridCell.Tab.1.bottom" timestamp="1593674425431">
+      <screen x="70" y="27" width="2490" height="1053" />
+    </state>
+    <state width="1233" height="319" key="GridCell.Tab.1.bottom/70.27.2490.1053/2560.0.1920.1080/2560.0.1920.1080@70.27.2490.1053" timestamp="1593674425431" />
+    <state width="1589" height="319" key="GridCell.Tab.1.bottom/70.27.2490.1053/2560.0.1920.1080/4480.0.1920.1080@70.27.2490.1053" timestamp="1593547054372" />
+    <state width="1233" height="319" key="GridCell.Tab.1.center" timestamp="1593674425430">
+      <screen x="70" y="27" width="2490" height="1053" />
+    </state>
+    <state width="1233" height="319" key="GridCell.Tab.1.center/70.27.2490.1053/2560.0.1920.1080/2560.0.1920.1080@70.27.2490.1053" timestamp="1593674425430" />
+    <state width="1589" height="319" key="GridCell.Tab.1.center/70.27.2490.1053/2560.0.1920.1080/4480.0.1920.1080@70.27.2490.1053" timestamp="1593547054372" />
+    <state width="1233" height="319" key="GridCell.Tab.1.left" timestamp="1593674425430">
+      <screen x="70" y="27" width="2490" height="1053" />
+    </state>
+    <state width="1233" height="319" key="GridCell.Tab.1.left/70.27.2490.1053/2560.0.1920.1080/2560.0.1920.1080@70.27.2490.1053" timestamp="1593674425430" />
+    <state width="1589" height="319" key="GridCell.Tab.1.left/70.27.2490.1053/2560.0.1920.1080/4480.0.1920.1080@70.27.2490.1053" timestamp="1593547054372" />
+    <state width="1233" height="319" key="GridCell.Tab.1.right" timestamp="1593674425430">
+      <screen x="70" y="27" width="2490" height="1053" />
+    </state>
+    <state width="1233" height="319" key="GridCell.Tab.1.right/70.27.2490.1053/2560.0.1920.1080/2560.0.1920.1080@70.27.2490.1053" timestamp="1593674425430" />
+    <state width="1589" height="319" key="GridCell.Tab.1.right/70.27.2490.1053/2560.0.1920.1080/4480.0.1920.1080@70.27.2490.1053" timestamp="1593547054372" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kostinshmatova/backend/controller/ProductController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+.btn-box{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.modal-name{
+    text-align: center;
+}

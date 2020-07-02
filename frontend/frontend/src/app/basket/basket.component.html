@@ -1,0 +1,35 @@
+<div *ngIf="currentProducts.length>0">
+    <div class="title">Текущий заказ</div>
+    <div class="order-box">
+        <app-order [products]="currentProducts" [btnType]="'delete'" (onDelete)="refreshInfo()"></app-order>
+    </div>
+    <div class="btn-box">
+        <button class="btn btn-primary" (click)="openModal(content)">Продолжить оформление</button>
+    </div>
+</div>
+<div class="btn-box">
+    <button routerLink="/" routerLinkActive="active" class="btn btn-primary">Вернуться к каталогу</button>
+</div>
+<div *ngIf="orders?.length>0" class="title">Предыдущие заказы</div>
+<div *ngFor="let order of orders" class="order-box">
+    <app-order [products]="productsForOrder.get(order.id)" [btnType]="'none'" [orderId]="order.id" ></app-order>
+</div>
+
+<ng-template #content let-modal>
+    <div class="row">
+        <div class="col-6 modal-name">Имя</div>
+        <div class="col-6">
+            <input id="name" #nameInput />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 modal-name">
+            Адрес
+        </div>
+        <div class="col-6">
+            <input id="address" />
+        </div>
+    </div>
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close(nameInput.value)">Подтвердить</button>
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Cancel')">Отмена</button>
+</ng-template>
